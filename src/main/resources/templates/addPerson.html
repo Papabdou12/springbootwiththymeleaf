@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Create a person</h1>
+
+<form th:action="/" method= "POST">
+FirstName:
+<input type="text" name = "firstname"/>
+<br/>
+LastName:
+<input type="text" name = "lastname"/>
+<br/>
+<input type="submit" value="create"/>
+
+</form>
+</body>
+</html>
